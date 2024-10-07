@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProjektWlasny/1.0.0": {
+        "runtime": {
+          "ProjektWlasny.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjektWlasny/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

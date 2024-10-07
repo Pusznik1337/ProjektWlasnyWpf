@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|c:\\users\\macie\\desktop\\szkola\\stare\\projektwlasny\\projektwlasny\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED857C-141A-4D83-A3C3-97DF73D2378C}|ProjektWlasny\\ProjektWlasny.csproj|solutionrelative:projektwlasny\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektWlasny\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjektWlasny\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:50:43.119Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window2.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektWlasny\\Window2.xaml.cs",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window2.xaml.cs",
+              "RelativeToolTip": "ProjektWlasny\\Window2.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:14:40.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Student.cs",
+              "RelativeDocumentMoniker": "ProjektWlasny\\Student.cs",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Student.cs",
+              "RelativeToolTip": "ProjektWlasny\\Student.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:00:06.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window2.xaml",
+              "RelativeDocumentMoniker": "ProjektWlasny\\Window2.xaml",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window2.xaml",
+              "RelativeToolTip": "ProjektWlasny\\Window2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T11:01:02.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjektWlasny\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\MainWindow.xaml",
+              "RelativeToolTip": "ProjektWlasny\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T10:40:25.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window1.xaml",
+              "RelativeDocumentMoniker": "ProjektWlasny\\Window1.xaml",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window1.xaml",
+              "RelativeToolTip": "ProjektWlasny\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T10:36:47.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "ProjektWlasny\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\macie\\Desktop\\szkola\\stare\\ProjektWlasny\\ProjektWlasny\\Window1.xaml.cs",
+              "RelativeToolTip": "ProjektWlasny\\Window1.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:19:17.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

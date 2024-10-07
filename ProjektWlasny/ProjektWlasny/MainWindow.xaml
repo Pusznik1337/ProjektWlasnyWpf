@@ -1,0 +1,102 @@
+﻿<Window x:Class="ProjektWlasny.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektWlasny"
+        mc:Ignorable="d"
+        Title="Lista uczniów" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush" Value="Green"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Foreground" Value="Green"/>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="621*"/>
+            <ColumnDefinition Width="179*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="314*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="50" Text="Lista uczniów" Grid.Column="0" HorizontalAlignment="Left" Margin="254,1,0,0" Width="293" Grid.Row="2"/>
+        <StackPanel Grid.Column="1" Grid.Row="3" Margin="0,5,0,0">
+            <Button x:Name="addStudent" Content="Dodaj ucznia" Height="50" Background="LightGreen" Click="addStudent_Click"></Button>
+            <Button x:Name="removeStudent" Content="Usuń ucznia" Height="50" Background="pink" Click="removeStudent_Click"></Button>
+            <Button x:Name="infoStudent" Content="Informacje o wybranym uczniu" Height="50" Background="LightSkyBlue" Click="infoStudent_Click"></Button>
+            <Button x:Name="addGrade" Content="Dodaj ocenę" Height="50" Background="Violet" Click="addGrade_Click"></Button>
+        </StackPanel>
+
+        <DataGrid SelectedCellsChanged="SelectedCellsChanged" MouseDoubleClick="MouseClick" CellEditEnding="CellEditEnding" BeginningEdit="BeginEdit"  Grid.Row="3" Grid.Column="0" x:Name="students" AutoGenerateColumns="False" Margin="0,5,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Header="Nr" Width="30" Binding="{Binding Path = Id}" IsReadOnly="true"></DataGridTextColumn>
+                <DataGridTextColumn  Header="Imię" Width="100" Binding="{Binding Path = Name}" IsReadOnly="true"></DataGridTextColumn>
+                <DataGridTextColumn  Header="Nazwisko" Width="100" Binding="{Binding Path = Lastname}" IsReadOnly="true"></DataGridTextColumn>
+            </DataGrid.Columns>
+            
+
+        </DataGrid>
+        <!--
+        <ListView Grid.Row="1" Grid.Column="0" x:Name="students">
+            <ListView.View>
+
+                <GridView>
+                    <GridViewColumn  Header="Nr" Width="30" DisplayMemberBinding="{Binding Path = Id}">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="{x:Type GridViewColumnHeader}">
+                                <Setter Property="Background" Value="LightBlue" />
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
+                    <GridViewColumn  Header="Imię" Width="150" DisplayMemberBinding="{Binding Path = Name}">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="{x:Type GridViewColumnHeader}">
+                                <Setter Property="Background" Value="LightBlue" />
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
+                    <GridViewColumn  Header="Nazwisko" Width="150" DisplayMemberBinding="{Binding Path = Lastname}">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="{x:Type GridViewColumnHeader}">
+                                <Setter Property="Background" Value="LightBlue" />
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        -->
+        <ToolBarTray Grid.ColumnSpan="2" Grid.Row="1" Margin="0,5,0,5">
+            <ToolBar>
+                <Button Content="Resetuj" Click="Button_Click">
+                </Button>
+                <Button Content="Usuń ocenę" Click="Button_Click_1">
+                </Button>
+            </ToolBar>
+
+        </ToolBarTray>
+
+        <Menu Height="20" VerticalAlignment="Center" Grid.ColumnSpan="2">
+            <MenuItem Header="_Edit">
+                <MenuItem Command="ApplicationCommands.Copy"/>
+                <MenuItem Command="ApplicationCommands.Cut"/>
+                <MenuItem Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+            <MenuItem Header="Pomoc">
+                <MenuItem Header="Dodawanie ocen"  Click="MenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

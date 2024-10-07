@@ -1,0 +1,31 @@
+﻿<Window x:Class="ProjektWlasny.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektWlasny"
+        mc:Ignorable="d"
+        Title="Dodawanie ucznia" Height="450" Width="800">
+    <Grid>
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="_Edit">
+                <MenuItem Command="ApplicationCommands.Copy"/>
+                <MenuItem Command="ApplicationCommands.Cut"/>
+                <MenuItem Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+        </Menu>
+        <WrapPanel Orientation="Vertical" HorizontalAlignment="Center">
+            
+            <TextBlock Text="Dodaj nowego ucznia do listy" FontSize="50" Background="Azure"></TextBlock>
+            <Label Content="Imię:" FontSize="30"></Label>
+            <TextBox x:Name="nameInput" Height="30" Width="300" BorderThickness="1" HorizontalAlignment="Left" LostFocus="checkName"></TextBox>
+            <Label Content="Nazwisko:" FontSize="30"></Label>
+            <TextBox x:Name="lastnameInput" Height="30" Width="300" BorderThickness="1" HorizontalAlignment="Left"></TextBox>
+            <Label Content="PESEL:" FontSize="30"></Label>
+            <TextBox x:Name="peselInput" Height="30" Width="300" BorderThickness="1" HorizontalAlignment="Left"></TextBox>
+            <Button x:Name="addStudent" Content="Potwierdź" Height="50" Width="150" Margin="0 20 0 0" HorizontalAlignment="Left" Background="Azure" Click="addStudent_Click"></Button>
+        </WrapPanel>
+    
+    </Grid>
+    
+</Window>
